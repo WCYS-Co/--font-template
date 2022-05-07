@@ -46,7 +46,7 @@ clean:
 	find . -name "*.pyc" | xargs rm delete
 
 update-ufr:
-	npx update-template https://github.com/googlefonts/Unified-Font-Repository/
+	npx update-template https://github.com/WCYS-Co/--font-template/
 
 update:
 	pip install --upgrade $(dependency); pip freeze > requirements.txt
