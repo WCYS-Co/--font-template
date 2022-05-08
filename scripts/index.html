@@ -3,23 +3,32 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>My Font development</title>
+		<title>&lcub;&lcub;font-name&rcub;&rcub; &ndash; testing pages</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			html {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',  'Oxygen', 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+			}
+		  </style>
 	</head>
-	<body>
-		<h1>My Font testing pages</h1>
-		<ul>
-			<li>
-				<a href="fontbakery/fontbakery-report.html">FontBakery Report</a>
+	<body class="m-8 bg-white text-gray-800">
+		<div class="mb-4">
+			<h1 class="text-2xl font-semibold">&lcub;&lcub;font-name&rcub;&rcub; &ndash; testing pages</h1>
+		</div>
+		<div class="grid space-y-2">
+			<p>→ <a href="fontbakery/fontbakery-report.html" class="text-blue-600 underline hover:no-underline">
+					FontBakery Report</a>
+				</p>
+			<p>→ <a href="proof/glyphs.html" class="text-blue-600 underline hover:no-underline">
+					All glyphs</a>
+				</p>
+			<p>→ <a href="proof/text.html" class="text-blue-600 underline hover:no-underline">
+					Sample text</a>
+				</p>
+			<p>→ <a href="proof/waterfall.html" class="text-blue-600 underline hover:no-underline">
+					Waterfall test</a>
+				</p>
 			</li>
-			<li>
-				<a href="proof/glyphs.html">All glyphs</a>
-			</li>
-			<li>
-				<a href="proof/text.html">Sample text</a>
-			</li>
-			<li>
-				<a href="proof/waterfall.html">Waterfall test</a>
-			</li>
-		</ul>
+		</div>
 	</body>
 </html>
