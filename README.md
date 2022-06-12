@@ -19,8 +19,8 @@ Snazzy description of your font here.
 
 Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, et al.
 
-![Sample Image](documentation/hero-light.svg#gh-light-mode-only)
-![Sample Image](documentation/hero-dark.svg#gh-dark-mode-only)
+![Sample Image](docs/hero-light.svg#gh-light-mode-only)
+![Sample Image](docs/hero-dark.svg#gh-dark-mode-only)
 
 > ## Setting up your font // REMOVE THIS SECTION FROM README
 >
