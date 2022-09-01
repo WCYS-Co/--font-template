@@ -45,7 +45,7 @@ clean:
 	rm -rf venv
 	find . -name "*.pyc" | xargs rm delete
 
-update-ufr:
+update-font-template:
 	npx update-template https://github.com/WCYS-Co/--font-template/
 
 update:

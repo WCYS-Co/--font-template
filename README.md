@@ -17,6 +17,8 @@
 
 Snazzy description of your font here. 
 
+> **Updating a repository.** To update your font repository to bring in the latest base template from `@WCYS-Co/--font-template`, run `make update-font-template` from the command line.
+
 Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, et al.
 
 ![Sample Image](docs/hero-light.svg#gh-light-mode-only)
